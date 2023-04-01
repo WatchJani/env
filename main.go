@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"log"
-	"root/env"
+
+	"github.com/WatchJani/env/env"
 )
 
 func main() {
@@ -13,5 +14,5 @@ func main() {
 		log.Println(err)
 	}
 
-	fmt.Println(env["JANKO"])
+	fmt.Println(env["DRVO"])
 }
